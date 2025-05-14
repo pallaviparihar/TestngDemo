@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-14T10:57:49 IST" name="groupDemoSuite" finished-at="2025-05-14T10:57:49 IST" duration-ms="51">
+    <groups>
+      <group name="os.windows">
+        <method signature="groupDemo.Test3()[pri:0, instance:serosoft.groupDemo@383bfa16]" name="Test3" class="serosoft.groupDemo"/>
+      </group> <!-- os.windows -->
+    </groups>
+    <test started-at="2025-05-14T10:57:49 IST" name="groupDemoTest" finished-at="2025-05-14T10:57:49 IST" duration-ms="51">
+      <class name="serosoft.groupDemo">
+        <test-method signature="Test3()[pri:0, instance:serosoft.groupDemo@383bfa16]" started-at="2025-05-14T10:57:49 IST" name="Test3" finished-at="2025-05-14T10:57:49 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+      </class> <!-- serosoft.groupDemo -->
+    </test> <!-- groupDemoTest -->
+  </suite> <!-- groupDemoSuite -->
+</testng-results>

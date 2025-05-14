@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="groupDemoSuite">
+	<test thread-count="5" name="groupDemoTest" enabled="true">
+		<groups>
+			<define name="dailybuild">
+				<include name="Regression"></include>
+			</define>
+			<define name="os.windowbuild">
+			<include name="os.windows">
+			</include>
+			</define>
+			<run>
+			<include name="os.windowbuild"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="serosoft.groupDemo" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
